@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A34179F139C2D42001D8502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A34179E139C2D42001D8502 /* UIKit.framework */; };
+		1A3417A1139C2D42001D8502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3417A0139C2D42001D8502 /* Foundation.framework */; };
+		1A3417A3139C2D42001D8502 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3417A2139C2D42001D8502 /* CoreGraphics.framework */; };
+		1A3417A9139C2D42001D8502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417A7139C2D42001D8502 /* InfoPlist.strings */; };
+		1A3417AC139C2D42001D8502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417AB139C2D42001D8502 /* main.m */; };
+		1A3417AF139C2D42001D8502 /* Makaton_DictionaryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417AE139C2D42001D8502 /* Makaton_DictionaryAppDelegate.m */; };
+		1A3417B2139C2D42001D8502 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417B0139C2D42001D8502 /* MainWindow.xib */; };
+		1A3417B5139C2D42001D8502 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417B4139C2D42001D8502 /* RootViewController.m */; };
+		1A3417B8139C2D42001D8502 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417B6139C2D42001D8502 /* RootViewController.xib */; };
+		1A3417BF139C2D42001D8502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A34179E139C2D42001D8502 /* UIKit.framework */; };
+		1A3417C0139C2D42001D8502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3417A0139C2D42001D8502 /* Foundation.framework */; };
+		1A3417C1139C2D42001D8502 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3417A2139C2D42001D8502 /* CoreGraphics.framework */; };
+		1A3417C9139C2D42001D8502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417C7139C2D42001D8502 /* InfoPlist.strings */; };
+		1A3417CC139C2D42001D8502 /* Makaton_DictionaryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */; };
+		1A3417CE139C2D42001D8502 /* Makaton_DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A3417C2139C2D42001D8502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A341791139C2D42001D8502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A341799139C2D42001D8502;
+			remoteInfo = "Makaton Dictionary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A34179A139C2D42001D8502 /* Makaton Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Makaton Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A34179E139C2D42001D8502 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A3417A0139C2D42001D8502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A3417A2139C2D42001D8502 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A3417A6139C2D42001D8502 /* Makaton Dictionary-Info.plist */ = {isa = PBXFileReference; path = "Makaton Dictionary-Info.plist"; sourceTree = "<group>"; };
+		1A3417A8139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A3417AA139C2D42001D8502 /* Makaton Dictionary-Prefix.pch */ = {isa = PBXFileReference; path = "Makaton Dictionary-Prefix.pch"; sourceTree = "<group>"; };
+		1A3417AB139C2D42001D8502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A3417AD139C2D42001D8502 /* Makaton_DictionaryAppDelegate.h */ = {isa = PBXFileReference; path = Makaton_DictionaryAppDelegate.h; sourceTree = "<group>"; };
+		1A3417AE139C2D42001D8502 /* Makaton_DictionaryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Makaton_DictionaryAppDelegate.m; sourceTree = "<group>"; };
+		1A3417B1139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1A3417B3139C2D42001D8502 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		1A3417B4139C2D42001D8502 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1A3417B7139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		1A3417BE139C2D42001D8502 /* Makaton DictionaryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Makaton DictionaryTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3417C6139C2D42001D8502 /* Makaton DictionaryTests-Info.plist */ = {isa = PBXFileReference; path = "Makaton DictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		1A3417C8139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */ = {isa = PBXFileReference; path = "Makaton DictionaryTests-Prefix.pch"; sourceTree = "<group>"; };
+		1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Makaton_DictionaryTests.h; sourceTree = "<group>"; };
+		1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Makaton_DictionaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A341797139C2D42001D8502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A34179F139C2D42001D8502 /* UIKit.framework in Frameworks */,
+				1A3417A1139C2D42001D8502 /* Foundation.framework in Frameworks */,
+				1A3417A3139C2D42001D8502 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3417BA139C2D42001D8502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3417BF139C2D42001D8502 /* UIKit.framework in Frameworks */,
+				1A3417C0139C2D42001D8502 /* Foundation.framework in Frameworks */,
+				1A3417C1139C2D42001D8502 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A34178F139C2D42001D8502 = {
+			isa = PBXGroup;
+			children = (
+				1A3417A4139C2D42001D8502 /* Makaton Dictionary */,
+				1A3417C4139C2D42001D8502 /* Makaton DictionaryTests */,
+				1A34179D139C2D42001D8502 /* Frameworks */,
+				1A34179B139C2D42001D8502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A34179B139C2D42001D8502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A34179A139C2D42001D8502 /* Makaton Dictionary.app */,
+				1A3417BE139C2D42001D8502 /* Makaton DictionaryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A34179D139C2D42001D8502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A34179E139C2D42001D8502 /* UIKit.framework */,
+				1A3417A0139C2D42001D8502 /* Foundation.framework */,
+				1A3417A2139C2D42001D8502 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A3417A4139C2D42001D8502 /* Makaton Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				1A3417AD139C2D42001D8502 /* Makaton_DictionaryAppDelegate.h */,
+				1A3417AE139C2D42001D8502 /* Makaton_DictionaryAppDelegate.m */,
+				1A3417B0139C2D42001D8502 /* MainWindow.xib */,
+				1A3417B3139C2D42001D8502 /* RootViewController.h */,
+				1A3417B4139C2D42001D8502 /* RootViewController.m */,
+				1A3417B6139C2D42001D8502 /* RootViewController.xib */,
+				1A3417A5139C2D42001D8502 /* Supporting Files */,
+			);
+			path = "Makaton Dictionary";
+			sourceTree = "<group>";
+		};
+		1A3417A5139C2D42001D8502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3417A6139C2D42001D8502 /* Makaton Dictionary-Info.plist */,
+				1A3417A7139C2D42001D8502 /* InfoPlist.strings */,
+				1A3417AA139C2D42001D8502 /* Makaton Dictionary-Prefix.pch */,
+				1A3417AB139C2D42001D8502 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A3417C4139C2D42001D8502 /* Makaton DictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */,
+				1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */,
+				1A3417C5139C2D42001D8502 /* Supporting Files */,
+			);
+			path = "Makaton DictionaryTests";
+			sourceTree = "<group>";
+		};
+		1A3417C5139C2D42001D8502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3417C6139C2D42001D8502 /* Makaton DictionaryTests-Info.plist */,
+				1A3417C7139C2D42001D8502 /* InfoPlist.strings */,
+				1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A341799139C2D42001D8502 /* Makaton Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3417D1139C2D42001D8502 /* Build configuration list for PBXNativeTarget "Makaton Dictionary" */;
+			buildPhases = (
+				1A341796139C2D42001D8502 /* Sources */,
+				1A341797139C2D42001D8502 /* Frameworks */,
+				1A341798139C2D42001D8502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Makaton Dictionary";
+			productName = "Makaton Dictionary";
+			productReference = 1A34179A139C2D42001D8502 /* Makaton Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A3417BD139C2D42001D8502 /* Makaton DictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3417D4139C2D42001D8502 /* Build configuration list for PBXNativeTarget "Makaton DictionaryTests" */;
+			buildPhases = (
+				1A3417B9139C2D42001D8502 /* Sources */,
+				1A3417BA139C2D42001D8502 /* Frameworks */,
+				1A3417BB139C2D42001D8502 /* Resources */,
+				1A3417BC139C2D42001D8502 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3417C3139C2D42001D8502 /* PBXTargetDependency */,
+			);
+			name = "Makaton DictionaryTests";
+			productName = "Makaton DictionaryTests";
+			productReference = 1A3417BE139C2D42001D8502 /* Makaton DictionaryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A341791139C2D42001D8502 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1A341794139C2D42001D8502 /* Build configuration list for PBXProject "Makaton Dictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A34178F139C2D42001D8502;
+			productRefGroup = 1A34179B139C2D42001D8502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A341799139C2D42001D8502 /* Makaton Dictionary */,
+				1A3417BD139C2D42001D8502 /* Makaton DictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A341798139C2D42001D8502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3417A9139C2D42001D8502 /* InfoPlist.strings in Resources */,
+				1A3417B2139C2D42001D8502 /* MainWindow.xib in Resources */,
+				1A3417B8139C2D42001D8502 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3417BB139C2D42001D8502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3417C9139C2D42001D8502 /* InfoPlist.strings in Resources */,
+				1A3417CC139C2D42001D8502 /* Makaton_DictionaryTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3417BC139C2D42001D8502 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A341796139C2D42001D8502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3417AC139C2D42001D8502 /* main.m in Sources */,
+				1A3417AF139C2D42001D8502 /* Makaton_DictionaryAppDelegate.m in Sources */,
+				1A3417B5139C2D42001D8502 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3417B9139C2D42001D8502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3417CE139C2D42001D8502 /* Makaton_DictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3417C3139C2D42001D8502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A341799139C2D42001D8502 /* Makaton Dictionary */;
+			targetProxy = 1A3417C2139C2D42001D8502 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A3417A7139C2D42001D8502 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3417A8139C2D42001D8502 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A3417B0139C2D42001D8502 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3417B1139C2D42001D8502 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1A3417B6139C2D42001D8502 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3417B7139C2D42001D8502 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		1A3417C7139C2D42001D8502 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3417C8139C2D42001D8502 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3417CF139C2D42001D8502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A3417D0139C2D42001D8502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1A3417D2139C2D42001D8502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Makaton Dictionary/Makaton Dictionary-Prefix.pch";
+				INFOPLIST_FILE = "Makaton Dictionary/Makaton Dictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A3417D3139C2D42001D8502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Makaton Dictionary/Makaton Dictionary-Prefix.pch";
+				INFOPLIST_FILE = "Makaton Dictionary/Makaton Dictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A3417D5139C2D42001D8502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Makaton Dictionary.app/Makaton Dictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Makaton DictionaryTests/Makaton DictionaryTests-Prefix.pch";
+				INFOPLIST_FILE = "Makaton DictionaryTests/Makaton DictionaryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A3417D6139C2D42001D8502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Makaton Dictionary.app/Makaton Dictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Makaton DictionaryTests/Makaton DictionaryTests-Prefix.pch";
+				INFOPLIST_FILE = "Makaton DictionaryTests/Makaton DictionaryTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A341794139C2D42001D8502 /* Build configuration list for PBXProject "Makaton Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3417CF139C2D42001D8502 /* Debug */,
+				1A3417D0139C2D42001D8502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3417D1139C2D42001D8502 /* Build configuration list for PBXNativeTarget "Makaton Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3417D2139C2D42001D8502 /* Debug */,
+				1A3417D3139C2D42001D8502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A3417D4139C2D42001D8502 /* Build configuration list for PBXNativeTarget "Makaton DictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3417D5139C2D42001D8502 /* Debug */,
+				1A3417D6139C2D42001D8502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A341791139C2D42001D8502 /* Project object */;
+}
