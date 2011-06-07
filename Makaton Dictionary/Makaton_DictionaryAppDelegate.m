@@ -7,6 +7,7 @@
 //
 
 #import "Makaton_DictionaryAppDelegate.h"
+#import "RootViewController.h"
 
 @implementation Makaton_DictionaryAppDelegate
 
@@ -17,10 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    // Add the navigation controller's view to the window and display.
-    self.window.rootViewController = self.navigationController;
-    [self.window makeKeyAndVisible];
+
+    // Create and configure the main view controller.    
+    RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:@"RootView" bundle:nil];    
+    [rootViewController init ];
+    
+    // Add create and configure the navigation controller.
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    self.navigationController = navigationController;
+    [rootViewController release];
+    [navigationController release];
+    
+    // Configure and display the window.
+    [self.window addSubview:navigationController.view];
+    [self.window makeKeyAndVisible];    
     return YES;
 }
 

@@ -10,6 +10,52 @@
 
 @implementation RootViewController
 
+- (id)init
+{
+    self = [super init];
+    
+    if (self != nil) {
+        [ self reload ];
+    }
+    return self;
+}
+
+- (void) reload {
+    NSDirectoryEnumerator *dirEnum;
+    NSString *file;
+    
+    for (int i=0; i<26; i++) {
+        fileList[i] = [ [ NSMutableArray alloc ] init ];
+    }
+        
+    dirEnum = [ [ NSFileManager defaultManager ] enumeratorAtPath: [NSHomeDirectory() stringByAppendingPathComponent:@"Makaton Dictionary.app"]];
+    
+    while ((file = [dirEnum nextObject])) {
+        if ([[file pathExtension] isEqualToString:@"png"]) {
+            file = [ file stringByDeletingPathExtension ];
+            char index = ( [ file cStringUsingEncoding : NSASCIIStringEncoding ] )[0];
+            if (index >= 'a' && index <= 'z') {
+                index -= 32;
+            }
+            if (index >= 'A' && index <= 'Z') {
+                index -= 65;
+                [ fileList[(int) index] addObject: [file capitalizedString] ];
+            }
+        }
+    }
+    
+    nActiveSections = 0;
+    activeSections = [ [ NSMutableArray alloc ] init ];
+    sectionTitles = [ [ NSMutableArray alloc ] init ];
+    for (int i=0; i<26; i++) {
+        if ([fileList[i]count] > 0) {
+            nActiveSections++;
+            [ activeSections addObject: fileList[i] ];
+            [ sectionTitles addObject: [ NSString stringWithFormat: @"%c", i+65] ];
+        }
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -35,79 +81,58 @@
 	[super viewDidDisappear:animated];
 }
 
-/*
- // Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
- */
-
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return nActiveSections;
+}
+
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
+{
+    return [ NSMutableArray arrayWithObjects:
+            @"A", @"B", @"C", @"D", @"E", @"F",
+            @"G", @"H", @"I", @"J", @"K", @"L",
+            @"M", @"N", @"O", @"P", @"Q", @"R",
+            @"S", @"T", @"U", @"V", @"W", @"X",
+            @"Y", @"Z", nil
+    ];
+}
+
+- (NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger) section {
+    return [ sectionTitles objectAtIndex: section];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return [ [ activeSections objectAtIndex: section] count];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index {
+    int i=0;
+    for (NSString * sectionTitle in sectionTitles) {
+        if ([sectionTitle isEqualToString:title]) {
+            [ tableView scrollToRowAtIndexPath:[ NSIndexPath indexPathForRow:0 inSection: i ] atScrollPosition: UITableViewScrollPositionTop animated: YES];
+            return i;
+        }
+        i++;
+    }
+    return -1;
 }
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    
+    NSString *CellIdentifier = [[ activeSections objectAtIndex: [indexPath indexAtPosition: 0]] objectAtIndex:[indexPath indexAtPosition:1]];
+    CellIdentifier = [ CellIdentifier stringByStandardizingPath];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell.text = CellIdentifier;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 
-    // Configure the cell.
     return cell;
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete)
-    {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }
-    else if (editingStyle == UITableViewCellEditingStyleInsert)
-    {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

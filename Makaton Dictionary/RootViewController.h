@@ -10,7 +10,13 @@
 
 @interface RootViewController : UITableViewController {
 
+    int nActiveSections;
+    NSMutableArray *fileList[26];
+    NSMutableArray *activeSections;
+    NSMutableArray *sectionTitles;
+    
 }
 
+- (void) reload;
 
 @end

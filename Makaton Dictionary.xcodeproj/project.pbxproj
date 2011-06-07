@@ -22,6 +22,12 @@
 		1A3417C9139C2D42001D8502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417C7139C2D42001D8502 /* InfoPlist.strings */; };
 		1A3417CC139C2D42001D8502 /* Makaton_DictionaryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */; };
 		1A3417CE139C2D42001D8502 /* Makaton_DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */; };
+		1AEDDD37139E7CD500BF1D10 /* mother.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD31139E7CD500BF1D10 /* mother.png */; };
+		1AEDDD38139E7CD500BF1D10 /* brother.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD32139E7CD500BF1D10 /* brother.png */; };
+		1AEDDD39139E7CD500BF1D10 /* father.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD33139E7CD500BF1D10 /* father.png */; };
+		1AEDDD3A139E7CD500BF1D10 /* sister.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD34139E7CD500BF1D10 /* sister.png */; };
+		1AEDDD3B139E7CD500BF1D10 /* drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD35139E7CD500BF1D10 /* drink.png */; };
+		1AEDDD3C139E7CD500BF1D10 /* biscuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD36139E7CD500BF1D10 /* biscuit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +45,28 @@
 		1A34179E139C2D42001D8502 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A3417A0139C2D42001D8502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A3417A2139C2D42001D8502 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A3417A6139C2D42001D8502 /* Makaton Dictionary-Info.plist */ = {isa = PBXFileReference; path = "Makaton Dictionary-Info.plist"; sourceTree = "<group>"; };
+		1A3417A6139C2D42001D8502 /* Makaton Dictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Makaton Dictionary-Info.plist"; sourceTree = "<group>"; };
 		1A3417A8139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1A3417AA139C2D42001D8502 /* Makaton Dictionary-Prefix.pch */ = {isa = PBXFileReference; path = "Makaton Dictionary-Prefix.pch"; sourceTree = "<group>"; };
+		1A3417AA139C2D42001D8502 /* Makaton Dictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Makaton Dictionary-Prefix.pch"; sourceTree = "<group>"; };
 		1A3417AB139C2D42001D8502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A3417AD139C2D42001D8502 /* Makaton_DictionaryAppDelegate.h */ = {isa = PBXFileReference; path = Makaton_DictionaryAppDelegate.h; sourceTree = "<group>"; };
+		1A3417AD139C2D42001D8502 /* Makaton_DictionaryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Makaton_DictionaryAppDelegate.h; sourceTree = "<group>"; };
 		1A3417AE139C2D42001D8502 /* Makaton_DictionaryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Makaton_DictionaryAppDelegate.m; sourceTree = "<group>"; };
 		1A3417B1139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		1A3417B3139C2D42001D8502 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		1A3417B3139C2D42001D8502 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1A3417B4139C2D42001D8502 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		1A3417B7139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		1A3417BE139C2D42001D8502 /* Makaton DictionaryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Makaton DictionaryTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A3417C6139C2D42001D8502 /* Makaton DictionaryTests-Info.plist */ = {isa = PBXFileReference; path = "Makaton DictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		1A3417C6139C2D42001D8502 /* Makaton DictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Makaton DictionaryTests-Info.plist"; sourceTree = "<group>"; };
 		1A3417C8139C2D42001D8502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */ = {isa = PBXFileReference; path = "Makaton DictionaryTests-Prefix.pch"; sourceTree = "<group>"; };
+		1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Makaton DictionaryTests-Prefix.pch"; sourceTree = "<group>"; };
 		1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Makaton_DictionaryTests.h; sourceTree = "<group>"; };
 		1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Makaton_DictionaryTests.m; sourceTree = "<group>"; };
+		1AEDDD31139E7CD500BF1D10 /* mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mother.png; sourceTree = "<group>"; };
+		1AEDDD32139E7CD500BF1D10 /* brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brother.png; sourceTree = "<group>"; };
+		1AEDDD33139E7CD500BF1D10 /* father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = father.png; sourceTree = "<group>"; };
+		1AEDDD34139E7CD500BF1D10 /* sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sister.png; sourceTree = "<group>"; };
+		1AEDDD35139E7CD500BF1D10 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink.png; sourceTree = "<group>"; };
+		1AEDDD36139E7CD500BF1D10 /* biscuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biscuit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,7 @@
 		1A34178F139C2D42001D8502 = {
 			isa = PBXGroup;
 			children = (
+				1AEDDD2F139E7CBB00BF1D10 /* Resources */,
 				1A3417A4139C2D42001D8502 /* Makaton Dictionary */,
 				1A3417C4139C2D42001D8502 /* Makaton DictionaryTests */,
 				1A34179D139C2D42001D8502 /* Frameworks */,
@@ -153,6 +166,27 @@
 				1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEDDD2F139E7CBB00BF1D10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDDD3D139E7CDA00BF1D10 /* Basic */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1AEDDD3D139E7CDA00BF1D10 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDDD31139E7CD500BF1D10 /* mother.png */,
+				1AEDDD32139E7CD500BF1D10 /* brother.png */,
+				1AEDDD33139E7CD500BF1D10 /* father.png */,
+				1AEDDD34139E7CD500BF1D10 /* sister.png */,
+				1AEDDD35139E7CD500BF1D10 /* drink.png */,
+				1AEDDD36139E7CD500BF1D10 /* biscuit.png */,
+			);
+			name = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +259,12 @@
 				1A3417A9139C2D42001D8502 /* InfoPlist.strings in Resources */,
 				1A3417B2139C2D42001D8502 /* MainWindow.xib in Resources */,
 				1A3417B8139C2D42001D8502 /* RootViewController.xib in Resources */,
+				1AEDDD37139E7CD500BF1D10 /* mother.png in Resources */,
+				1AEDDD38139E7CD500BF1D10 /* brother.png in Resources */,
+				1AEDDD39139E7CD500BF1D10 /* father.png in Resources */,
+				1AEDDD3A139E7CD500BF1D10 /* sister.png in Resources */,
+				1AEDDD3B139E7CD500BF1D10 /* drink.png in Resources */,
+				1AEDDD3C139E7CD500BF1D10 /* biscuit.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +372,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -346,7 +386,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -361,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Makaton Dictionary/Makaton Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "Makaton Dictionary/Makaton Dictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Makaton Dictionary/Makaton Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "Makaton Dictionary/Makaton Dictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -443,6 +485,7 @@
 				1A3417D3139C2D42001D8502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3417D4139C2D42001D8502 /* Build configuration list for PBXNativeTarget "Makaton DictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +494,7 @@
 				1A3417D6139C2D42001D8502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
