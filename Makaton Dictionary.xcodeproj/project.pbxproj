@@ -22,12 +22,12 @@
 		1A3417C9139C2D42001D8502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417C7139C2D42001D8502 /* InfoPlist.strings */; };
 		1A3417CC139C2D42001D8502 /* Makaton_DictionaryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */; };
 		1A3417CE139C2D42001D8502 /* Makaton_DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */; };
-		1AEDDD37139E7CD500BF1D10 /* mother.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD31139E7CD500BF1D10 /* mother.png */; };
-		1AEDDD38139E7CD500BF1D10 /* brother.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD32139E7CD500BF1D10 /* brother.png */; };
-		1AEDDD39139E7CD500BF1D10 /* father.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD33139E7CD500BF1D10 /* father.png */; };
-		1AEDDD3A139E7CD500BF1D10 /* sister.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD34139E7CD500BF1D10 /* sister.png */; };
-		1AEDDD3B139E7CD500BF1D10 /* drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD35139E7CD500BF1D10 /* drink.png */; };
-		1AEDDD3C139E7CD500BF1D10 /* biscuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD36139E7CD500BF1D10 /* biscuit.png */; };
+		1AEDDD52139EB82300BF1D10 /* biscuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4C139EB82300BF1D10 /* biscuit.png */; };
+		1AEDDD53139EB82300BF1D10 /* brother.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4D139EB82300BF1D10 /* brother.png */; };
+		1AEDDD54139EB82300BF1D10 /* drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4E139EB82300BF1D10 /* drink.png */; };
+		1AEDDD55139EB82300BF1D10 /* father.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4F139EB82300BF1D10 /* father.png */; };
+		1AEDDD56139EB82300BF1D10 /* mother.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD50139EB82300BF1D10 /* mother.png */; };
+		1AEDDD57139EB82300BF1D10 /* sister.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD51139EB82300BF1D10 /* sister.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +61,12 @@
 		1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Makaton DictionaryTests-Prefix.pch"; sourceTree = "<group>"; };
 		1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Makaton_DictionaryTests.h; sourceTree = "<group>"; };
 		1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Makaton_DictionaryTests.m; sourceTree = "<group>"; };
-		1AEDDD31139E7CD500BF1D10 /* mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mother.png; sourceTree = "<group>"; };
-		1AEDDD32139E7CD500BF1D10 /* brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brother.png; sourceTree = "<group>"; };
-		1AEDDD33139E7CD500BF1D10 /* father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = father.png; sourceTree = "<group>"; };
-		1AEDDD34139E7CD500BF1D10 /* sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sister.png; sourceTree = "<group>"; };
-		1AEDDD35139E7CD500BF1D10 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink.png; sourceTree = "<group>"; };
-		1AEDDD36139E7CD500BF1D10 /* biscuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biscuit.png; sourceTree = "<group>"; };
+		1AEDDD4C139EB82300BF1D10 /* biscuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biscuit.png; sourceTree = "<group>"; };
+		1AEDDD4D139EB82300BF1D10 /* brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brother.png; sourceTree = "<group>"; };
+		1AEDDD4E139EB82300BF1D10 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink.png; sourceTree = "<group>"; };
+		1AEDDD4F139EB82300BF1D10 /* father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = father.png; sourceTree = "<group>"; };
+		1AEDDD50139EB82300BF1D10 /* mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mother.png; sourceTree = "<group>"; };
+		1AEDDD51139EB82300BF1D10 /* sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sister.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		1A34178F139C2D42001D8502 = {
 			isa = PBXGroup;
 			children = (
-				1AEDDD2F139E7CBB00BF1D10 /* Resources */,
+				1AEDDD47139EB77900BF1D10 /* Resources */,
 				1A3417A4139C2D42001D8502 /* Makaton Dictionary */,
 				1A3417C4139C2D42001D8502 /* Makaton DictionaryTests */,
 				1A34179D139C2D42001D8502 /* Frameworks */,
@@ -168,25 +168,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1AEDDD2F139E7CBB00BF1D10 /* Resources */ = {
+		1AEDDD47139EB77900BF1D10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1AEDDD3D139E7CDA00BF1D10 /* Basic */,
+				1AEDDD4A139EB82300BF1D10 /* Signs */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		1AEDDD3D139E7CDA00BF1D10 /* Basic */ = {
+		1AEDDD4A139EB82300BF1D10 /* Signs */ = {
 			isa = PBXGroup;
 			children = (
-				1AEDDD31139E7CD500BF1D10 /* mother.png */,
-				1AEDDD32139E7CD500BF1D10 /* brother.png */,
-				1AEDDD33139E7CD500BF1D10 /* father.png */,
-				1AEDDD34139E7CD500BF1D10 /* sister.png */,
-				1AEDDD35139E7CD500BF1D10 /* drink.png */,
-				1AEDDD36139E7CD500BF1D10 /* biscuit.png */,
+				1AEDDD4B139EB82300BF1D10 /* Free */,
 			);
-			name = Basic;
+			path = Signs;
+			sourceTree = "<group>";
+		};
+		1AEDDD4B139EB82300BF1D10 /* Free */ = {
+			isa = PBXGroup;
+			children = (
+				1AEDDD4C139EB82300BF1D10 /* biscuit.png */,
+				1AEDDD4D139EB82300BF1D10 /* brother.png */,
+				1AEDDD4E139EB82300BF1D10 /* drink.png */,
+				1AEDDD4F139EB82300BF1D10 /* father.png */,
+				1AEDDD50139EB82300BF1D10 /* mother.png */,
+				1AEDDD51139EB82300BF1D10 /* sister.png */,
+			);
+			path = Free;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,12 +267,12 @@
 				1A3417A9139C2D42001D8502 /* InfoPlist.strings in Resources */,
 				1A3417B2139C2D42001D8502 /* MainWindow.xib in Resources */,
 				1A3417B8139C2D42001D8502 /* RootViewController.xib in Resources */,
-				1AEDDD37139E7CD500BF1D10 /* mother.png in Resources */,
-				1AEDDD38139E7CD500BF1D10 /* brother.png in Resources */,
-				1AEDDD39139E7CD500BF1D10 /* father.png in Resources */,
-				1AEDDD3A139E7CD500BF1D10 /* sister.png in Resources */,
-				1AEDDD3B139E7CD500BF1D10 /* drink.png in Resources */,
-				1AEDDD3C139E7CD500BF1D10 /* biscuit.png in Resources */,
+				1AEDDD52139EB82300BF1D10 /* biscuit.png in Resources */,
+				1AEDDD53139EB82300BF1D10 /* brother.png in Resources */,
+				1AEDDD54139EB82300BF1D10 /* drink.png in Resources */,
+				1AEDDD55139EB82300BF1D10 /* father.png in Resources */,
+				1AEDDD56139EB82300BF1D10 /* mother.png in Resources */,
+				1AEDDD57139EB82300BF1D10 /* sister.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

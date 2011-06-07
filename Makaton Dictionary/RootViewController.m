@@ -28,7 +28,7 @@
         fileList[i] = [ [ NSMutableArray alloc ] init ];
     }
         
-    dirEnum = [ [ NSFileManager defaultManager ] enumeratorAtPath: [NSHomeDirectory() stringByAppendingPathComponent:@"Makaton Dictionary.app"]];
+    dirEnum = [ [ NSFileManager defaultManager ] enumeratorAtPath: [NSHomeDirectory() stringByAppendingPathComponent:@"Makaton Dictionary.app/Signs/Free"]];
     
     while ((file = [dirEnum nextObject])) {
         if ([[file pathExtension] isEqualToString:@"png"]) {
