@@ -1,0 +1,3 @@
+[submodule "Signs"]
+	path = Signs
+	url = git@github.com:Floppy/ios-makaton-content.git
