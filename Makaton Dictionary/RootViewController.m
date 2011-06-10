@@ -28,7 +28,7 @@
         fileList[i] = [ [ NSMutableArray alloc ] init ];
     }
         
-    dirEnum = [ [ NSFileManager defaultManager ] enumeratorAtPath: [NSHomeDirectory() stringByAppendingPathComponent:@"Makaton Dictionary.app/Signs/Free"]];
+    dirEnum = [ [ NSFileManager defaultManager ] enumeratorAtPath: [NSHomeDirectory() stringByAppendingPathComponent:@"Makaton Dictionary.app"]];
     
     while ((file = [dirEnum nextObject])) {
         if ([[file pathExtension] isEqualToString:@"png"]) {
@@ -128,7 +128,6 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
         cell.text = CellIdentifier;
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 
     return cell;
