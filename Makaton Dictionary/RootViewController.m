@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "SignViewController.h"
 
 @implementation RootViewController
 
@@ -135,13 +136,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-	*/
+    SignViewController *signViewController = [[SignViewController alloc] init];    
+    NSString *CellIdentifier = [[ activeSections objectAtIndex: [indexPath indexAtPosition: 0]] objectAtIndex:[indexPath indexAtPosition:1]];
+    signViewController.title = CellIdentifier;
+    [self.navigationController pushViewController:signViewController animated:YES];
+    [signViewController release];
 }
 
 - (void)didReceiveMemoryWarning

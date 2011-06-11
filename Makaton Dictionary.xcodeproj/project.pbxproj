@@ -22,6 +22,8 @@
 		1A3417C9139C2D42001D8502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417C7139C2D42001D8502 /* InfoPlist.strings */; };
 		1A3417CC139C2D42001D8502 /* Makaton_DictionaryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */; };
 		1A3417CE139C2D42001D8502 /* Makaton_DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */; };
+		1ABE2B5213A41A9B00D53463 /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE2B5013A41A9B00D53463 /* SignViewController.m */; };
+		1ABE2B5313A41A9B00D53463 /* SignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE2B5113A41A9B00D53463 /* SignViewController.xib */; };
 		1AEDDD52139EB82300BF1D10 /* biscuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4C139EB82300BF1D10 /* biscuit.png */; };
 		1AEDDD53139EB82300BF1D10 /* brother.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4D139EB82300BF1D10 /* brother.png */; };
 		1AEDDD54139EB82300BF1D10 /* drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4E139EB82300BF1D10 /* drink.png */; };
@@ -61,6 +63,9 @@
 		1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Makaton DictionaryTests-Prefix.pch"; sourceTree = "<group>"; };
 		1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Makaton_DictionaryTests.h; sourceTree = "<group>"; };
 		1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Makaton_DictionaryTests.m; sourceTree = "<group>"; };
+		1ABE2B4F13A41A9B00D53463 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		1ABE2B5013A41A9B00D53463 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		1ABE2B5113A41A9B00D53463 /* SignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignViewController.xib; sourceTree = "<group>"; };
 		1AEDDD4C139EB82300BF1D10 /* biscuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biscuit.png; sourceTree = "<group>"; };
 		1AEDDD4D139EB82300BF1D10 /* brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brother.png; sourceTree = "<group>"; };
 		1AEDDD4E139EB82300BF1D10 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink.png; sourceTree = "<group>"; };
@@ -133,6 +138,9 @@
 				1A3417B4139C2D42001D8502 /* RootViewController.m */,
 				1A3417B6139C2D42001D8502 /* RootViewController.xib */,
 				1A3417A5139C2D42001D8502 /* Supporting Files */,
+				1ABE2B4F13A41A9B00D53463 /* SignViewController.h */,
+				1ABE2B5013A41A9B00D53463 /* SignViewController.m */,
+				1ABE2B5113A41A9B00D53463 /* SignViewController.xib */,
 			);
 			path = "Makaton Dictionary";
 			sourceTree = "<group>";
@@ -273,6 +281,7 @@
 				1AEDDD55139EB82300BF1D10 /* father.png in Resources */,
 				1AEDDD56139EB82300BF1D10 /* mother.png in Resources */,
 				1AEDDD57139EB82300BF1D10 /* sister.png in Resources */,
+				1ABE2B5313A41A9B00D53463 /* SignViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +320,7 @@
 				1A3417AC139C2D42001D8502 /* main.m in Sources */,
 				1A3417AF139C2D42001D8502 /* Makaton_DictionaryAppDelegate.m in Sources */,
 				1A3417B5139C2D42001D8502 /* RootViewController.m in Sources */,
+				1ABE2B5213A41A9B00D53463 /* SignViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
