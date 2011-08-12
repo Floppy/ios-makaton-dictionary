@@ -59,7 +59,8 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+   self.title = @"Makaton";
+   [super viewDidLoad];
 }
 
 - (void)viewWillAppear:(BOOL)animated
