@@ -136,10 +136,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    SignViewController *signViewController = [[SignViewController alloc] init];    
+    SignViewController *signViewController = [[SignViewController alloc] init];
     NSString *CellIdentifier = [[ activeSections objectAtIndex: [indexPath indexAtPosition: 0]] objectAtIndex:[indexPath indexAtPosition:1]];
     signViewController.title = CellIdentifier;
     [self.navigationController pushViewController:signViewController animated:YES];
+    [[signViewController imageView] setImage: [UIImage imageNamed: CellIdentifier]];
     [signViewController release];
 }
 

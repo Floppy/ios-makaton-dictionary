@@ -11,6 +11,10 @@
 
 @interface SignViewController : UIViewController {
     
+    IBOutlet UIImageView* imageView;
+    
 }
+
+@property (nonatomic, retain) UIImageView* imageView;
 
 @end
