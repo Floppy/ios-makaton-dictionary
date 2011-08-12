@@ -141,7 +141,7 @@
     NSString *CellIdentifier = [[ activeSections objectAtIndex: [indexPath indexAtPosition: 0]] objectAtIndex:[indexPath indexAtPosition:1]];
     signViewController.title = CellIdentifier;
     [self.navigationController pushViewController:signViewController animated:YES];
-    [[signViewController imageView] setImage: [UIImage imageNamed: CellIdentifier]];
+    [[signViewController imageView] setImage: [UIImage imageNamed: [[CellIdentifier lowercaseString] stringByAppendingString:@".png" ]]];
     [signViewController release];
 }
 
