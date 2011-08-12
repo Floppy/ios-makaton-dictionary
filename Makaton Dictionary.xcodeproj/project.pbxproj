@@ -28,6 +28,7 @@
 		1A8609D313F585AA00DD3B5C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8609CE13F585AA00DD3B5C /* home.png */; };
 		1A8609D413F585AA00DD3B5C /* shower.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8609CF13F585AA00DD3B5C /* shower.png */; };
 		1A8609D513F585AA00DD3B5C /* toilet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8609D013F585AA00DD3B5C /* toilet.png */; };
+		1A8609D813F58AC100DD3B5C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8609D713F58AC100DD3B5C /* icon.png */; };
 		1ABE2B5213A41A9B00D53463 /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABE2B5013A41A9B00D53463 /* SignViewController.m */; };
 		1ABE2B5313A41A9B00D53463 /* SignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ABE2B5113A41A9B00D53463 /* SignViewController.xib */; };
 		1AEDDD52139EB82300BF1D10 /* biscuit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEDDD4C139EB82300BF1D10 /* biscuit.png */; };
@@ -75,6 +76,7 @@
 		1A8609CE13F585AA00DD3B5C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		1A8609CF13F585AA00DD3B5C /* shower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shower.png; sourceTree = "<group>"; };
 		1A8609D013F585AA00DD3B5C /* toilet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toilet.png; sourceTree = "<group>"; };
+		1A8609D713F58AC100DD3B5C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Makaton Dictionary/icon.png"; sourceTree = "<group>"; };
 		1ABE2B4F13A41A9B00D53463 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
 		1ABE2B5013A41A9B00D53463 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
 		1ABE2B5113A41A9B00D53463 /* SignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignViewController.xib; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 		1AEDDD47139EB77900BF1D10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1A8609D713F58AC100DD3B5C /* icon.png */,
 				1AEDDD4A139EB82300BF1D10 /* Signs */,
 			);
 			name = Resources;
@@ -306,6 +309,7 @@
 				1A8609D313F585AA00DD3B5C /* home.png in Resources */,
 				1A8609D413F585AA00DD3B5C /* shower.png in Resources */,
 				1A8609D513F585AA00DD3B5C /* toilet.png in Resources */,
+				1A8609D813F58AC100DD3B5C /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
