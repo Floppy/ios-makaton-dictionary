@@ -32,7 +32,7 @@
     dirEnum = [ [ NSFileManager defaultManager ] enumeratorAtPath: [NSHomeDirectory() stringByAppendingPathComponent:@"Makaton Dictionary.app"]];
     
     while ((file = [dirEnum nextObject])) {
-        if ([[file pathExtension] isEqualToString:@"png"]) {
+        if ([[file pathExtension] isEqualToString:@"png"] && [file compare:@"icon.png"] != NSOrderedSame) {
             file = [ file stringByDeletingPathExtension ];
             char index = ( [ file cStringUsingEncoding : NSASCIIStringEncoding ] )[0];
             if (index >= 'a' && index <= 'z') {
