@@ -11,6 +11,8 @@
 
 @implementation RootViewController
 
+@synthesize searchBar;
+
 - (id)init
 {
     self = [super init];
@@ -59,8 +61,16 @@
 
 - (void)viewDidLoad
 {
-   self.title = @"Makaton";
-   [super viewDidLoad];
+    self.title = @"Makaton";
+    [super viewDidLoad];
+    
+    UISearchBar *tempSearchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0,0,self.tableView.frame.size.width, 0)];
+    
+    self.searchBar = tempSearchBar;
+    self.searchBar.delegate = self;
+    [self.searchBar sizeToFit];
+    self.tableView.tableHeaderView = self.searchBar;
+    [self.searchBar release];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -143,6 +153,34 @@
     [self.navigationController pushViewController:signViewController animated:YES];
     [[signViewController imageView] setImage: [UIImage imageNamed: [[CellIdentifier lowercaseString] stringByAppendingString:@".png" ]]];
     [signViewController release];
+}
+
+#pragma mark UISearchBarDelegate
+
+- (void) searchBarTextDidBeginEditing: (UISearchBar*)sBar
+{
+    searchBar.showsCancelButton = YES;
+    searchBar.autocorrectionType = UITextAutocorrectionTypeNo;
+}
+
+- (void) searchBarTextDidEndEditing: (UISearchBar *)sBar
+{
+    searchBar.showsCancelButton = NO;
+}
+
+- (void) searchBarTextDidChange: (UISearchBar *)sBar textDidChange:(NSString*)searchText
+{
+    
+}
+
+- (void) searchBarCancelButtonClicked: (UISearchBar*)sBar
+{
+    [searchBar resignFirstResponder];
+}
+
+- (void) searchBarSearchButtonClicked: (UISearchBar*)sBar
+{
+    [searchBar resignFirstResponder];    
 }
 
 - (void)didReceiveMemoryWarning

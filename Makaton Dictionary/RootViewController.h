@@ -8,14 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
+@interface RootViewController : UITableViewController <UISearchBarDelegate> {
 
     int nActiveSections;
     NSMutableArray *fileList[26];
     NSMutableArray *activeSections;
     NSMutableArray *sectionTitles;
     
+    NSMutableArray *searchedData;
+    
+    UISearchBar* searchBar;
+    
 }
+
+@property(nonatomic, retain) UISearchBar* searchBar;
 
 - (void) reload;
 
