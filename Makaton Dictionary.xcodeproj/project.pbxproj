@@ -23,6 +23,9 @@
 		1A3417C9139C2D42001D8502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417C7139C2D42001D8502 /* InfoPlist.strings */; };
 		1A3417CC139C2D42001D8502 /* Makaton_DictionaryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */; };
 		1A3417CE139C2D42001D8502 /* Makaton_DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */; };
+		1A52DFD1141697950093EBD8 /* signs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A52DFD0141697950093EBD8 /* signs.plist */; };
+		1A52DFD3141697CA0093EBD8 /* food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A52DFD2141697CA0093EBD8 /* food.plist */; };
+		1A52DFD5141697D20093EBD8 /* basic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A52DFD4141697D20093EBD8 /* basic.plist */; };
 		1A8609D113F585AA00DD3B5C /* bed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8609CC13F585AA00DD3B5C /* bed.png */; };
 		1A8609D213F585AA00DD3B5C /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8609CD13F585AA00DD3B5C /* food.png */; };
 		1A8609D313F585AA00DD3B5C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8609CE13F585AA00DD3B5C /* home.png */; };
@@ -50,7 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A289F7813F580C5000A05B6 /* dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dinner.png; sourceTree = "<group>"; };
+		1A289F7813F580C5000A05B6 /* dinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dinner.png; path = Signs/Free/dinner.png; sourceTree = "<group>"; };
 		1A34179A139C2D42001D8502 /* Makaton Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Makaton Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A34179E139C2D42001D8502 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A3417A0139C2D42001D8502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,21 +74,24 @@
 		1A3417CA139C2D42001D8502 /* Makaton DictionaryTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Makaton DictionaryTests-Prefix.pch"; sourceTree = "<group>"; };
 		1A3417CB139C2D42001D8502 /* Makaton_DictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Makaton_DictionaryTests.h; sourceTree = "<group>"; };
 		1A3417CD139C2D42001D8502 /* Makaton_DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Makaton_DictionaryTests.m; sourceTree = "<group>"; };
-		1A8609CC13F585AA00DD3B5C /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bed.png; sourceTree = "<group>"; };
-		1A8609CD13F585AA00DD3B5C /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
-		1A8609CE13F585AA00DD3B5C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
-		1A8609CF13F585AA00DD3B5C /* shower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shower.png; sourceTree = "<group>"; };
-		1A8609D013F585AA00DD3B5C /* toilet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toilet.png; sourceTree = "<group>"; };
+		1A52DFD0141697950093EBD8 /* signs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = signs.plist; sourceTree = "<group>"; };
+		1A52DFD2141697CA0093EBD8 /* food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = food.plist; sourceTree = "<group>"; };
+		1A52DFD4141697D20093EBD8 /* basic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = basic.plist; sourceTree = "<group>"; };
+		1A8609CC13F585AA00DD3B5C /* bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bed.png; path = Signs/Free/bed.png; sourceTree = "<group>"; };
+		1A8609CD13F585AA00DD3B5C /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food.png; path = Signs/Free/food.png; sourceTree = "<group>"; };
+		1A8609CE13F585AA00DD3B5C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Signs/Free/home.png; sourceTree = "<group>"; };
+		1A8609CF13F585AA00DD3B5C /* shower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shower.png; path = Signs/Free/shower.png; sourceTree = "<group>"; };
+		1A8609D013F585AA00DD3B5C /* toilet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toilet.png; path = Signs/Free/toilet.png; sourceTree = "<group>"; };
 		1A8609D713F58AC100DD3B5C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Makaton Dictionary/icon.png"; sourceTree = "<group>"; };
 		1ABE2B4F13A41A9B00D53463 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
 		1ABE2B5013A41A9B00D53463 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
 		1ABE2B5113A41A9B00D53463 /* SignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignViewController.xib; sourceTree = "<group>"; };
-		1AEDDD4C139EB82300BF1D10 /* biscuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = biscuit.png; sourceTree = "<group>"; };
-		1AEDDD4D139EB82300BF1D10 /* brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brother.png; sourceTree = "<group>"; };
-		1AEDDD4E139EB82300BF1D10 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink.png; sourceTree = "<group>"; };
-		1AEDDD4F139EB82300BF1D10 /* father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = father.png; sourceTree = "<group>"; };
-		1AEDDD50139EB82300BF1D10 /* mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mother.png; sourceTree = "<group>"; };
-		1AEDDD51139EB82300BF1D10 /* sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sister.png; sourceTree = "<group>"; };
+		1AEDDD4C139EB82300BF1D10 /* biscuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = biscuit.png; path = Signs/Free/biscuit.png; sourceTree = "<group>"; };
+		1AEDDD4D139EB82300BF1D10 /* brother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brother.png; path = Signs/Free/brother.png; sourceTree = "<group>"; };
+		1AEDDD4E139EB82300BF1D10 /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drink.png; path = Signs/Free/drink.png; sourceTree = "<group>"; };
+		1AEDDD4F139EB82300BF1D10 /* father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = father.png; path = Signs/Free/father.png; sourceTree = "<group>"; };
+		1AEDDD50139EB82300BF1D10 /* mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mother.png; path = Signs/Free/mother.png; sourceTree = "<group>"; };
+		1AEDDD51139EB82300BF1D10 /* sister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sister.png; path = Signs/Free/sister.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,23 +199,9 @@
 		1AEDDD47139EB77900BF1D10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A8609D713F58AC100DD3B5C /* icon.png */,
-				1AEDDD4A139EB82300BF1D10 /* Signs */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		1AEDDD4A139EB82300BF1D10 /* Signs */ = {
-			isa = PBXGroup;
-			children = (
-				1AEDDD4B139EB82300BF1D10 /* Free */,
-			);
-			path = Signs;
-			sourceTree = "<group>";
-		};
-		1AEDDD4B139EB82300BF1D10 /* Free */ = {
-			isa = PBXGroup;
-			children = (
+				1A52DFD4141697D20093EBD8 /* basic.plist */,
+				1A52DFD2141697CA0093EBD8 /* food.plist */,
+				1A52DFD0141697950093EBD8 /* signs.plist */,
 				1A8609CC13F585AA00DD3B5C /* bed.png */,
 				1A8609CD13F585AA00DD3B5C /* food.png */,
 				1A8609CE13F585AA00DD3B5C /* home.png */,
@@ -222,8 +214,9 @@
 				1AEDDD4F139EB82300BF1D10 /* father.png */,
 				1AEDDD50139EB82300BF1D10 /* mother.png */,
 				1AEDDD51139EB82300BF1D10 /* sister.png */,
+				1A8609D713F58AC100DD3B5C /* icon.png */,
 			);
-			path = Free;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +303,9 @@
 				1A8609D413F585AA00DD3B5C /* shower.png in Resources */,
 				1A8609D513F585AA00DD3B5C /* toilet.png in Resources */,
 				1A8609D813F58AC100DD3B5C /* icon.png in Resources */,
+				1A52DFD1141697950093EBD8 /* signs.plist in Resources */,
+				1A52DFD3141697CA0093EBD8 /* food.plist in Resources */,
+				1A52DFD5141697D20093EBD8 /* basic.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
