@@ -263,6 +263,9 @@
 /* Begin PBXProject section */
 		1A341791139C2D42001D8502 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
 			buildConfigurationList = 1A341794139C2D42001D8502 /* Build configuration list for PBXProject "Makaton Dictionary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -442,6 +445,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Makaton Dictionary/Makaton Dictionary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Makaton Dictionary/Makaton Dictionary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,6 +460,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Makaton Dictionary/Makaton Dictionary-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Makaton Dictionary/Makaton Dictionary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +480,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Makaton DictionaryTests/Makaton DictionaryTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Makaton DictionaryTests/Makaton DictionaryTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -497,6 +503,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Makaton DictionaryTests/Makaton DictionaryTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Makaton DictionaryTests/Makaton DictionaryTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"-framework",
